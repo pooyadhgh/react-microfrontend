@@ -2,19 +2,19 @@
 
 ![Screenshot](https://raw.githubusercontent.com/pooyadhgh/react-microfrontend/main/screenshot/screenshot.png 'Screenshot')
 
-A Front-end application developed in run-time micro front-end architecture using React.js and Vue.js, including three different apps connected with [Webpack Module Federation plugin](https://webpack.js.org/concepts/module-federation/ 'Webpack Module Federation plugin'):
+A Front-end application developed in runtime micro front-end architecture using React.js and Vue.js, including three different apps connected with [Webpack Module Federation plugin](https://webpack.js.org/concepts/module-federation/ 'Webpack Module Federation plugin'):
 
-- Container application as the primary host for other apps, with React.js
-- Marketing and Auth applications also with React.js
-- Dashboard application with Vue.js
+- `Container` application as the primary host for other apps, with React.js
+- `Marketing` and `Auth` applications also with React.js
+- `Dashboard` application with Vue.js
 
 ### Overall Architecture
 
-- Customized Webpack configurations with Module Federation Plugin to share dependencies during runtime phase.
-- Routing between multiple applications with `react-router-dom` with custom configurations in `Browser History` and `Memory History` APIs.
-- Handling global state in apps for authentication purposes.
-- YAML files for configured GitHub actions to deploy the app to an AWS S3 bucket.
-- Dummy customized Material UI components used in UI.
+- Webpack configurations are customized with Module Federation Plugin to share dependencies during the runtime phase.
+- Routing between multiple applications exists with `react-router-dom` with custom configurations in `Browser History` and `Memory History` APIs.
+- There is a global state in apps for authentication purposes.
+- YAML files are configured for GitHub actions to deploy the app to an AWS S3 bucket.
+- Dummy customized Material UI components are used in UI.
 
 ## Usage
 
@@ -28,7 +28,7 @@ npm install
 
 ### Run development mode
 
-Then, in each package you need to run the start command:
+Then, in each package, you need to run the start command:
 
 ```
 npm start
